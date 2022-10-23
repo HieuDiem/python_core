@@ -13,5 +13,7 @@ p.add_run("8AM ngay 15/11/2022").boid = True
 document.add_heading('Noi Dung', level=1)
 document.add_paragraph("Cong viec khong dung nang luc")
 
+document.add_paragraph("Ki ten:")
+document.add_paragraph("Nguyen Van A").italic = True
 
 document.save("nghi_viec.docx")
